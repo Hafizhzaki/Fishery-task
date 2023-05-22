@@ -17,21 +17,26 @@ Berikut adalah langkah-langkah untuk melihat hasil analisis dengan menjalankan `
 
 2. Buka terminal atau command prompt.
 
-3. Masuk ke direktori tempat `efishery.py` berada menggunakan perintah `cd`:
+3. Clone Fishery-task menggunakan perintah `git`:
    ```
-   cd /path/to/efishery.py
+   git clone https://github.com/Hafizhzaki/Fishery-task.git
    ```
 
-4. Jalankan skrip `efishery.py` dengan perintah berikut:
+4. Masuk pada folder Fishery-task menggunakan perintah `cd`:
+   ```
+   cd Fishery-task/
+   ```
+
+5. Jalankan skrip `efishery.py` dengan perintah berikut:
    ```
    python efishery.py
    ```
 
-5. Skrip akan mulai menjalankan analisis dan menghasilkan output. Tunggu hingga proses selesai.
+6. Skrip akan mulai menjalankan analisis dan menghasilkan output. Tunggu hingga proses selesai.
 
-6. Setelah analisis selesai, hasil akan ditampilkan di terminal atau command prompt. Anda dapat membaca dan menganalisis hasil tersebut sesuai kebutuhan.
+7. Setelah analisis selesai, hasil akan ditampilkan di terminal atau command prompt. Anda dapat membaca dan menganalisis hasil tersebut sesuai kebutuhan.
 
-7. Jika Anda ingin menyimpan hasil analisis ke file, Anda dapat mengalihkan output ke file dengan menggunakan operator `>`:
+8. Jika Anda ingin menyimpan hasil analisis ke file, Anda dapat mengalihkan output ke file dengan menggunakan operator `>`:
    ```
    python efishery.py > hasil.txt
    ```
